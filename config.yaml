@@ -1,0 +1,12 @@
+name: release configs
+common:
+  artifactS3Location: "bucket to store results"
+  executionRoleArn: "your executing role"
+  schedule: "rate(15 minutes)" // the frequency 
+  runTimeVersion: "syn-nodejs-puppeteer-6.2" // always the latests 
+canaries:
+  example-canary:
+    env:
+      EXAMPLE: "This is an example for defining a environment variable"
+    tags:
+      example: "This is an example tag"

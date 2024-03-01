@@ -1,2 +1,5 @@
-# aws-synthetics-example
-This repo is an example how to deploy the AWS synthetic monitoring on github actions
+# Example repo for deploying synthetic monitoring on AWS
+
+## What are canaries
+We use canaries to monitor production API's for availibility and performance. In this repo, you will find the canary scripts plus some utilities to develop and update the canaries in AWS.
+

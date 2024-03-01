@@ -1,0 +1,4 @@
+node_modules
+!canary-js/**/**/node_modules
+*.zip
+
